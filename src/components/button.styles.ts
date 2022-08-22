@@ -9,5 +9,9 @@ interface ButtonContainerProps {
 export const ButtonContainer = styled.button<ButtonContainerProps>`
   width: 100px;
   height: 40px;
-  background-color: ${props => props.theme.primary};
+  border-radius: 4px;
+  border: 0;
+  margin: 8px;
+  
+  background-color: ${props => props.theme["green-500"]};
 `;
