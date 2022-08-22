@@ -5,12 +5,6 @@ interface ButtonContainerProps {
   variant: ButtonVariant;
 }
 
-const buttonVariants = {
-  primary: "pruple",
-  secondary: "orange",
-  danger: "red",
-  success: "green",
-};
 
 export const ButtonContainer = styled.button<ButtonContainerProps>`
   width: 100px;
