@@ -1,10 +1,9 @@
-import styled, { css } from "styled-components";
-import { ButtonVariant } from "./Button";
+import styled from 'styled-components'
+import { ButtonVariant } from './Button'
 
 interface ButtonContainerProps {
-  variant: ButtonVariant;
+  variant: ButtonVariant
 }
-
 
 export const ButtonContainer = styled.button<ButtonContainerProps>`
   width: 100px;
@@ -12,6 +11,6 @@ export const ButtonContainer = styled.button<ButtonContainerProps>`
   border-radius: 4px;
   border: 0;
   margin: 8px;
-  
-  background-color: ${props => props.theme["green-500"]};
-`;
+
+  background-color: ${(props) => props.theme['green-500']};
+`
